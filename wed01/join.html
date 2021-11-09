@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>자바 학습 커뮤니티</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<table class="main_table">
+			<tr>
+				<td colspan="3" style="height: 60px;">
+					<table class="header">
+						<tr>
+							<td>
+								<a href="index.html">
+									<span>자바 학습 커뮤니티</span>
+								</a>
+							</td>
+							<td class="join_login">
+								<a href="join.html">회원가입</a>
+								&nbsp;
+								<a href="login.html">로그인</a>
+								&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" valign="top">
+					<div class="submenu">
+						<a href="java.html">자바 학습 게시판</a>
+					</div>
+					<div class="submenu">
+						<a href="html.html">HTML 학습 게시판</a>
+					</div>
+				</td>
+				<td style="width: 5px;"></td>
+				<td>
+					<!-- 컨텐츠 출력되는 곳 ------------------------------->
+					<table class="main">
+						<tr>
+							<td class="title">
+								<span>회원가입</span>
+							</td>
+						</tr>
+					</table>
+					<div class="join">
+						<form name="join" method="post" action="joinok.html">
+							<table style="width: 100%; border-collapse: collapse;">
+								<tr>
+									<td style="width: 180px;">아이디 <span>(*)</span></td>
+									<td><input type="text" style="width: 100%;" required placeholder="ex)abcd"></td>
+								</tr>
+								<tr>
+									<td>비밀번호  <span>(*)</span></td>
+									<td><input type="password" style="width: 100%;" required placeholder="ex)1234"></td>
+								</tr>
+								<tr>
+									<td>비밀번호 확인  <span>(*)</span></td>
+									<td><input type="password" style="width: 100%;" required placeholder="ex)1234"></td>
+								</tr>
+								<tr>
+									<td>이름  <span>(*)</span></td>
+									<td><input type="text" style="width: 100%;" required placeholder="ex)홍길동"></td>
+								</tr>
+								<tr>
+									<td>성별  <span>(*)</span></td>
+									<td>
+										<input name="gender" type="radio" checked="checked">남
+										<input name="gender" type="radio">여
+									</td>
+								</tr>
+								<tr>
+									<td>취미  <span>(*)</span></td>
+									<td>
+										<select>
+											<option>낚시</option>
+											<option>여행</option>
+											<option>게임</option>
+										</select>
+									</td>
+								</tr>
+								<tr>
+									<td>관심분야</td>
+									<td>
+										<input type="checkbox"> 책
+										<input type="checkbox" checked="checked"> 여행
+									</td>
+								</tr>
+								<tr>
+									<td colspan="2" style="text-align: center;">
+										<input type="submit" value="가입완료">
+										<input type="reset" value="취소">
+									</td>
+								</tr>
+							</table>
+						</form>
+					</div>
+					<!-- 컨텐츠 출력되는 곳 ------------------------------->
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>
