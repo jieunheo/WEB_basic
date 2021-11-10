@@ -230,3 +230,36 @@ li:hover {
   background-color: #fff;
   color: #3C5A91;
 }
+			
+/* view */
+.view {
+  width: 600px;
+}
+
+.view span {
+  font-weight: bold;
+  color: #3C5A91;
+  margin-right: 20px;
+}
+
+.view .content {
+  box-sizing: border-box;
+  min-height: 300px;
+  padding: 10px;
+  border-bottom: 0;
+}
+
+.listBtn, .modBtn, .delBtn {
+  margin-bottom: 10px; 
+  padding: 5px 15px; 
+  border-radius: 5px;  
+  font-weight: bold;
+  color: #fff;
+  background-color: #3C5A91;
+}
+
+.listBtn:hover, .modBtn:hover, .delBtn:hover {
+  border: 2px solid #3C5A91;  
+  background-color: #fff;
+  color: #3C5A91;
+}
