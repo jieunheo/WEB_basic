@@ -144,3 +144,14 @@ tbody tr:hover a {
 .writeform textarea:focus {
   background-color: #eee;
 }
+
+/* --ok */
+.ok {
+  width: 500px;
+  margin: 50px auto 0;
+  padding: 30px 0;
+}
+
+.msg {
+  margin-bottom: 30px;
+}
