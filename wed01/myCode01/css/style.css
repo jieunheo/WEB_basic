@@ -201,11 +201,11 @@ li:hover {
 			
 /* write */
 .write {
-  width: 600px;
+  width: 700px;
 }
 .write input[type=text],
 .write textarea {
-  width: 90%;
+  width: 89%;
   float: right;
 }
 
