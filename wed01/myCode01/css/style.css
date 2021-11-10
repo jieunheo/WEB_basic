@@ -2,6 +2,11 @@ a {
   color: inherit;
   text-decoration: none;
 }
+			
+input[type=submit],
+input[type=button] {
+  outline: 0;
+}
 
 .main_table {
   width: 1000px;
@@ -291,10 +296,11 @@ li:hover {
   color: #fff;
   background-color: #3C5A91;
   float: right;
+  border: 1px solid #3C5A91;  
 }
 
 .backBtn:hover, .reBtn:hover {
-  border: 2px solid #3C5A91;  
+  border: 1px solid #3C5A91;  
   background-color: #fff;
   color: #3C5A91;
 }
