@@ -38,10 +38,19 @@
 				<td style="width: 5px;"></td>
 				<td>
 					<!-- 컨텐츠 출력되는 곳 ------------------------------->
-					<div class="ok">
-						회원가입이 완료되었습니다.<br>
-						<a href="index.html">처음 화면으로 돌아가기</a>
-					</div>
+					<table class="main">
+						<tr>
+							<td class="title">
+								<span>※ 글쓰기</span>
+							</td>
+						</tr>
+					</table>
+					<form class="write clearfix" name="write" method="post" action="writeok.html">
+						<p>제&nbsp;&nbsp;&nbsp;&nbsp;목 <input name="title" type="text" required></p>
+						<p>내&nbsp;&nbsp;&nbsp;&nbsp;용 <textarea name="contents" rows="20" cols="70" required></textarea></p>
+						<p>첨부파일 <input name="attach" type="file"></p>
+						<input class="writeBtn" type="submit" value="글쓰기">
+					</form>
 					<!-- 컨텐츠 출력되는 곳 ------------------------------->
 				</td>
 			</tr>

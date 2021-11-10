@@ -142,21 +142,91 @@ li:hover {
   background-color: #eee;
 }
 			
-/* joinok */
-.jionok {
+/* --ok  */
+.nok {
+  padding-top: 20px;
+  width: 100%;
   text-align: center;
 }
 
-.joinok a {
-   display: inline-block; 
-   margin: 10px 0; 
-   padding: 5px 15px; 
-   border-radius: 5px;  
-   border: 1px solid #3C5A91;  
-   font-weight: bold;
+.ok a {
+    display: inline-block; 
+    margin-bottom: 10px; 
+    padding: 5px 15px; 
+    border-radius: 5px;  
+    border: 1px solid #3C5A91;  
+    font-weight: bold;
 }
 
-.joinok a:hover {
+.ok a:hover {
   color: #fff;
   background-color: #3C5A91;
+}
+
+/* login */
+.login {
+  width: 270px;
+}
+
+.login p {
+  margin-bottom: 10px;
+}
+
+.login input[type=text],
+.login input[type=password],
+.login input[type=submit] {
+  float: right;
+}
+
+.login input[type=text]:focus,
+.login input[type=password]:focus {
+  background-color: #eee;
+}
+
+.loginBtn {
+  margin: 10px 0; 
+  padding: 5px 15px; 
+  border-radius: 5px;  
+  font-weight: bold;
+  background-color: #3C5A91;
+  color: #fff;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  border: 2px solid #3C5A91;  
+  color: #3C5A91;
+  background-color: #fff;
+}
+			
+/* write */
+.write {
+  width: 600px;
+}
+.write input[type=text],
+.write textarea {
+  width: 90%;
+  float: right;
+}
+
+.clearfix p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.writeBtn {
+  margin-bottom: 10px; 
+  padding: 5px 15px; 
+  border-radius: 5px;  
+  font-weight: bold;
+  color: #fff;
+  background-color: #3C5A91;
+  float: right;
+}
+
+.writeBtn:hover {
+  border: 2px solid #3C5A91;  
+  background-color: #fff;
+  color: #3C5A91;
 }

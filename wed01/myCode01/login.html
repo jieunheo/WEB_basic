@@ -38,10 +38,18 @@
 				<td style="width: 5px;"></td>
 				<td>
 					<!-- 컨텐츠 출력되는 곳 ------------------------------->
-					<div class="ok">
-						회원가입이 완료되었습니다.<br>
-						<a href="index.html">처음 화면으로 돌아가기</a>
-					</div>
+					<table class="main">
+						<tr>
+							<td class="title">
+								<span>※ 로그인</span>
+							</td>
+						</tr>
+					</table>
+					<form class="login" name="login" method="post" action="loginok.html">
+						<p>아이디: <input type="text" required name="userid"></p>
+						<p>비밀번호: <input type="password" required name="userpw"></p>
+						<input class="loginBtn" type="submit" value="로그인">
+					</form>
 					<!-- 컨텐츠 출력되는 곳 ------------------------------->
 				</td>
 			</tr>
