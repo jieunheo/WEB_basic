@@ -124,6 +124,10 @@ tbody tr:hover a {
 }
 
 /* write, view */
+.viewform {
+  position: relative;
+}
+
 .writeform, .viewform {
   background-color: #fdfdfd;
   padding: 20px;
@@ -153,6 +157,19 @@ tbody tr:hover a {
   padding: 20px;
   box-sizing: border-box;
   min-height: 200px;
+}
+
+.bookimg {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  width: 180px;
+  height: 235px;
+  border: 1px solid #eee;
+  background-image: url("https://t1.daumcdn.net/cfile/tistory/992669355B9FC90042");
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* --ok */
