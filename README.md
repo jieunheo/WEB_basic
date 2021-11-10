@@ -10,3 +10,5 @@
   loginok.html - 로그인 완료 화면  
   write.html - 글쓰기 화면  
   writeok.html - 글쓰기 완료 화면  
+  view.html - 글보기 화면  
+  delete.html - 글삭제 화면  
