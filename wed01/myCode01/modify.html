@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<meta charset="UTF-8">
+		<title>자바 학습 커뮤니티</title>
+    <link rel="stylesheet" type="text/css" href="./css/style.css">
+	</head>
+	<body>
+		<table class="main_table">
+			<tr>
+				<td colspan="3" style="height: 60px;">
+					<table class="header">
+						<tr>
+							<td>
+								<a href="index.html">
+									<span>자바 학습 커뮤니티</span>
+								</a>
+							</td>
+							<td class="join_login">
+								<a href="join.html">회원가입</a>
+								&nbsp;
+								<a href="login.html">로그인</a>
+								&nbsp;
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+			<tr>
+				<td class="nav" valign="top">
+					<div class="submenu">
+						<a href="java.html">자바 학습 게시판</a>
+					</div>
+					<div class="submenu">
+						<a href="html.html">HTML 학습 게시판</a>
+					</div>
+				</td>
+				<td style="width: 5px;"></td>
+				<td>
+					<!-- 컨텐츠 출력되는 곳 ------------------------------->
+					<table class="main">
+						<tr>
+							<td class="title">
+								<span>※ 글수정</span>
+							</td>
+						</tr>
+					</table>
+					<form class="modify clearfix" name="write" method="post" action="writeok.html">
+						<p>제&nbsp;&nbsp;&nbsp;&nbsp;목 <input name="title" type="text" required value="자바 기초 강의 1"></p>
+						<p>구&nbsp;&nbsp;&nbsp;&nbsp;분&nbsp;
+							<input name="subject" type="radio" checked> 자바 학습 게시판
+							<input name="subject" type="radio"> HTML 학습 게시판
+						</p>
+						<p>내&nbsp;&nbsp;&nbsp;&nbsp;용 
+							<textarea name="contents" rows="20" cols="70" required>내용이랍니다.</textarea>
+						</p>
+						<p>첨부파일 <input name="attach" type="file"></p>
+						<input class="reBtn" type="submit" value="글수정">
+						<input class="backBtn" type="button" value="취소">
+					</form>
+					<!-- 컨텐츠 출력되는 곳 ------------------------------->
+				</td>
+			</tr>
+		</table>
+	</body>
+</html>

@@ -255,10 +255,45 @@ li:hover {
   border-radius: 5px;  
   font-weight: bold;
   color: #fff;
+  border: 1px solid #3C5A91;  
   background-color: #3C5A91;
 }
 
 .listBtn:hover, .modBtn:hover, .delBtn:hover {
+  border: 2px solid #3C5A91;  
+  background-color: #fff;
+  color: #3C5A91;
+}
+			
+/* modify */
+.modify {
+  width: 700px;
+}
+
+.modify input[type=text],
+.modify textarea {
+  width: 89%;
+  float: right;
+}
+
+.clearfix p:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.backBtn, .reBtn {
+  margin-bottom: 10px; 
+  padding: 5px 15px; 
+  margin-left: 5px;
+  border-radius: 5px;  
+  font-weight: bold;
+  color: #fff;
+  background-color: #3C5A91;
+  float: right;
+}
+
+.backBtn:hover, .reBtn:hover {
   border: 2px solid #3C5A91;  
   background-color: #fff;
   color: #3C5A91;
