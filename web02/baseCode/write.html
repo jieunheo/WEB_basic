@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>도서관리 프로그램</title>
+	</head>
+	<body>
+		<style>
+			.title
+			{
+				color: red;
+				font-weight: bold;
+				font-size: 15pt;
+			}	
+			
+			.backbg
+			{
+				height: 40px;
+				background-image: url(https://previews.123rf.com/images/rvika/rvika1605/rvika160500069/58767758-%EB%B2%A1%ED%84%B0-%EC%9E%90%EC%97%B0-%EB%B0%B0%EA%B2%BD%EC%9E%85%EB%8B%88%EB%8B%A4-.jpg);
+			}			
+			
+			td
+			{
+				text-align: center;
+			}	
+			
+			th
+			{
+				background-color: #f4f4f4;
+			}	
+			
+			.item:hover
+			{
+				background-color: #fffff0;
+			}
+			
+			.curpage
+			{
+				font-weight: bold;
+				color: red;
+			}
+			
+			.subtitle
+			{
+				font-weight: bold;
+				color: red;			
+			}
+			
+			input:focus,textarea:focus
+			{
+				background-color: yellow;
+			}
+			
+		</style>
+		<table border="0" style="width:800px" align="center">
+			<tr>
+				<td class="backbg"><span class="title">도서관리 프로그램</span></td>
+			</tr>
+			<tr>
+				<td>
+					<!-- 컨텐츠 영역 ---------------- -->
+					<table border="0" style="width:100%">
+						<tr>
+							<td style="text-align:left">
+								<span class="subtitle">※ 도서 자료 등록</span>
+							</td>
+						</tr>
+					</table>
+					<form name="write" method="post" action="writeok.html">
+					<table border="1" style="width:100%">
+						<tr>
+							<th style="width:100px;">도서명</th>
+							<td style="text-align:left;"><input type="text" required name="title" style="width:90%"></td>
+						</tr>
+						<tr>
+							<th style="width:100px;">출판사</th>
+							<td style="text-align:left;"><input type="text" name="publish" style="width:90%"></td>
+						</tr>
+						<tr>
+							<th style="width:100px;">가격</th>
+							<td style="text-align:left;"><input type="text" name="price" size="12">원</td>
+						</tr>
+						<tr>
+							<th style="width:100px;">권수</th>
+							<td style="text-align:left;"><input type="text" name="vol" size="12">권</td>
+						</tr>																		
+						<tr>
+							<th style="width:100px;">분류</th>
+							<td style="text-align:left;">
+								<input type="radio" name="category">인문학
+								<input type="radio" name="category">사회학
+								<input type="radio" name="category">전기전자
+								<input type="radio" name="category">역사
+								<input type="radio" name="category">정치/경제																
+							</td>
+						</tr>
+						<tr>
+							<th style="width:100px;">서평</th>
+							<td style="text-align:left;"><textarea style="width:90%; height:100px;"></textarea></td>
+						</tr>												
+						<tr>							
+							<td colspan="2">
+								<input type="submit" value="등록완료">
+								<a href="index.html">취소</a>								
+							</td>
+						</tr>						
+					</table>
+					</form>					
+					<!-- 컨텐츠 영역 ---------------- -->
+				</td>
+			</tr>			
+		</table>
+	</body>
+</html>

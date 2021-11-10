@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>도서관리 프로그램</title>
+	</head>
+	<body>
+		<style>
+			.title
+			{
+				color: red;
+				font-weight: bold;
+				font-size: 15pt;				
+			}	
+			
+			.backbg
+			{
+				height: 40px;
+				background-image: url(https://previews.123rf.com/images/rvika/rvika1605/rvika160500069/58767758-%EB%B2%A1%ED%84%B0-%EC%9E%90%EC%97%B0-%EB%B0%B0%EA%B2%BD%EC%9E%85%EB%8B%88%EB%8B%A4-.jpg);
+			}
+			
+			td
+			{
+				text-align: center;
+			}	
+			
+			th
+			{
+				background-color: #f4f4f4;
+			}	
+			
+			.item:hover
+			{
+				background-color: #fffff0;
+			}
+			
+			.curpage
+			{
+				font-weight: bold;
+				color: red;
+			}
+			
+			tr
+			{
+				background-color: #ffffff;
+			}
+		</style>
+		<table border="0" style="width:800px" align="center">
+			<tr>
+				<td class="backbg"><span class="title">도서관리 프로그램</span></td>
+			</tr>
+			<tr>
+				<td>
+					<!-- 컨텐츠 영역 ---------------- -->
+					<table border="0" style="width:100%">
+						<tr>
+							<td style="text-align:left">
+								<form name="search" method="get" action="index.html">
+									도서명 : <input type="text" name="title" size="10">
+									<input type="submit" value="검색">
+								</form> 
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align:right">
+								<a href="write.html">도서등록</a>
+							</td>
+						</tr>						
+						<tr>
+							<td>
+								<table border="0" style="width:100%;" cellpadding="3" cellspacing="1" bgcolor="#cccccc">
+									<tr>
+										<th style="width:60px;">번호</th>
+										<th>도서명</th>
+										<th style="width:100px;">저자</th>
+										<th style="width:80px;">보유권수</th>
+									</tr>
+									<tr class="item">
+										<td>1</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>2</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>3</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>4</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>5</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>6</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>7</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>8</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>9</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+									<tr class="item">
+										<td>10</td>
+										<td style="text-align:left;"><a href="view.html">이것이 자바다.</a></td>
+										<td>정정훈</td>
+										<td style="text-align:right;">1,003</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						<tr>
+							<td style="height:40px; text-align:center;">
+							<a href="index.html">◀</a>
+							<a href="index.html">1</a>
+							<a href="index.html">2</a>
+							<a href="index.html">3</a>
+							<a href="index.html">4</a>
+							<a href="index.html">5</a>
+							<a href="index.html"><span class="curpage">6</span></a>
+							<a href="index.html">7</a>
+							<a href="index.html">8</a>
+							<a href="index.html">9</a>							  
+							 <a href="index.html">▶</a>
+							</td>
+						</tr>
+					</table>
+					<!-- 컨텐츠 영역 ---------------- -->
+				</td>
+			</tr>			
+		</table>
+	</body>
+</html>

@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="EUC-KR">
+		<title>도서관리 프로그램</title>
+	</head>
+	<body>
+		<style>
+			.title
+			{
+				color: red;
+				font-weight: bold;
+				font-size: 15pt;
+			}	
+			
+			.backbg
+			{
+				height: 40px;
+				background-image: url(https://previews.123rf.com/images/rvika/rvika1605/rvika160500069/58767758-%EB%B2%A1%ED%84%B0-%EC%9E%90%EC%97%B0-%EB%B0%B0%EA%B2%BD%EC%9E%85%EB%8B%88%EB%8B%A4-.jpg);
+			}			
+			
+			td
+			{
+				text-align: center;
+			}	
+			
+			th
+			{
+				background-color: #f4f4f4;
+			}	
+			
+			.item:hover
+			{
+				background-color: #fffff0;
+			}
+			
+			.curpage
+			{
+				font-weight: bold;
+				color: red;
+			}
+			
+			.subtitle
+			{
+				font-weight: bold;
+				color: red;			
+			}
+			
+			input:focus,textarea:focus
+			{
+				background-color: yellow;
+			}
+		</style>
+		<table border="0" style="width:800px" align="center">
+			<tr>
+				<td class="backbg"><span class="title">도서관리 프로그램</span></td>
+			</tr>
+			<tr>
+				<td>
+					<!-- 컨텐츠 영역 ---------------- -->
+					<table border="0" style="width:100%">
+						<tr>
+							<td style="text-align:left">
+								<span class="subtitle">※ 도서명 : 이것이 자바다.</span>
+							</td>
+						</tr>
+					</table>
+					<table border="1" style="width:100%">
+						<tr>
+							<th rowspan="5" style="width:200px;"><img style="width:200p; height:200px;" src="http://image.kyobobook.co.kr/images/book/large/475/l9788968481475.jpg"></th>
+							<th style="width:100px;">도서명</th>
+							<td style="text-align:left;">이것이 자바다.</td>
+						</tr>
+						<tr>
+							<th style="width:100px;">출판사</th>
+							<td style="text-align:left;">생능출판사</td>
+						</tr>
+						<tr>
+							<th style="width:100px;">가격</th>
+							<td style="text-align:left;">123,000원</td>
+						</tr>
+						<tr>
+							<th style="width:100px;">권수</th>
+							<td style="text-align:left;">1,003권</td>
+						</tr>																		
+						<tr>
+							<th style="width:100px;">분류</th>
+							<td style="text-align:left;">인문학</td>
+						</tr>
+						<tr>
+							<th style="width:100px;">서평</th>
+							<td colspan="2" style="text-align:left;">
+							짱 좋아요~~
+							<br>
+							정말 유익해요~~
+							<br>
+							짱 좋아요~~
+							<br>
+							정말 유익해요~~
+							<br>
+							짱 좋아요~~
+							<br>
+							정말 유익해요~~
+							<br>
+							짱 좋아요~~
+							<br>
+							정말 유익해요~~
+							<br>
+							짱 좋아요~~
+							<br>
+							정말 유익해요~~
+							<br>																												
+							</td>
+						</tr>												
+						<tr>							
+							<td colspan="3">								
+								<a href="index.html">목록이동</a>	
+								&nbsp;&nbsp;|&nbsp;&nbsp;							
+								<a href="modify.html">정보변경</a>
+								&nbsp;&nbsp;|&nbsp;&nbsp;
+								<a href="delete.html">정보삭제</a>
+							</td>
+						</tr>						
+					</table>				
+					<!-- 컨텐츠 영역 ---------------- -->
+				</td>
+			</tr>			
+		</table>
+	</body>
+</html>
