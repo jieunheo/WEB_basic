@@ -15,6 +15,28 @@ input[type=button] {
   font-size: 12px;
 }
 
+.wrap {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.btn {
+  display: inline-block;
+  padding: 5px 15px;
+  border: 1px solid #3C5A91;
+  border-radius: 10px;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background-color: #3C5A91;
+  color: #fff;
+}
+
+.btnWrap {
+  text-align: center;
+}
+
 .clearfix:after {
   content: '';
   display: block;
@@ -101,24 +123,24 @@ tbody tr:hover a {
   color:  #5A78AF;
 }
 
-.wrap {
-  width: 700px;
-  margin: 0 auto;
+/* write */
+.writeform {
+  background-color: #fdfdfd;
+  padding: 20px;
 }
 
-.btn {
+.writeform span {
   display: inline-block;
-  padding: 5px 15px;
-  border: 1px solid #3C5A91;
-  border-radius: 10px;
-  font-size: 12px;
+  width: 100px;
+  vertical-align: top;
 }
 
-.btn:hover {
-  background-color: #3C5A91;
-  color: #fff;
+.writeform textarea {
+  width: 500px;
+  height: 200px;
 }
 
-.btnWrap {
-  text-align: center;
+.writeform input[type=text]:focus,
+.writeform textarea:focus {
+  background-color: #eee;
 }
