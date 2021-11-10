@@ -123,16 +123,17 @@ tbody tr:hover a {
   color:  #5A78AF;
 }
 
-/* write */
-.writeform {
+/* write, view */
+.writeform, .viewform {
   background-color: #fdfdfd;
   padding: 20px;
 }
 
-.writeform span {
+.writeform span, .viewform span {
   display: inline-block;
   width: 100px;
   vertical-align: top;
+  font-weight: bold;
 }
 
 .writeform textarea {
@@ -143,6 +144,15 @@ tbody tr:hover a {
 .writeform input[type=text]:focus,
 .writeform textarea:focus {
   background-color: #eee;
+}
+
+.viewform .textarea {
+  display: inline-block;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px;
+  box-sizing: border-box;
+  min-height: 200px;
 }
 
 /* --ok */
