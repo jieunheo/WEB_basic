@@ -15,7 +15,7 @@
   modifyok.html - 글수정 완료 화면
   delete.html - 글삭제 완료 화면  
     
-## web01 웹 만들어보기
+## web02 웹 만들어보기
   도서 관리 프로그램 만들어보기  
   index.html - 메인 페이지   
   write.html - 글쓰기 화면  
